@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="bg-hero-pattern">
+    <!-- content wrapper -->
+    <div class=" w-screen mx-auto max-w-[1440px] flex flex-row justify-between sm:justify-center lg:justify-between h-full">
+        <!-- left section -->
+        <div class="ml-[40px] mt-[40px] mr-[40px] flex flex-col pb-[125px]">
+            <!-- logo -->
+            <div class="mb-[40px]">
+                <img src="./image/logo.png" alt="" class=" w-[auto] h-[80px]">
+            </div>
+            <!-- sign in form -->
+            <div class=" w-full mx-w-[509px] md:w-[509px] h-[693px] pt-[40px] pb-[60px] pl-[40px] pr-[40px] bg-[#ffffff] rounded-[30px] shadow-lg box-cover flex flex-col justify-between mt-[40px] mr[40px]">
+                <div class="flex flex-col">
+                    <h1 class="font-['Open_Sans'] text-[40px] ">
+                        Sign in to <span class='text-[#679DFF] font-semibold'> MyStreet </span> Admin App
+                    </h1>
+                    <h2 class=" font-['Open_Sans'] text-[25px] text-[#9A9A9A] mt-[20px]">
+                        Manage the MyStreet App
+                    </h2>
+                    <!-- text field 01 -->
+                    <div class="mt-[40px] mb-[40px]">
+                        <p class=" font-['Open_Sans'] text-[15px] text-[#777171] ml-[15px] font-bold mb-[5px]">
+                            Email  Address
+                        </p>
+                            <input type="text" placeholder="Enter Your Email Address" class=" w-full mx-w-[447px] h-[60px] bg-[#ffffff] border-[#EFEFEF] border-[1px] outline-[#EFEFEF] rounded-[7px] pl-[15px] cursor-pointer" >
+                    </div>
+                    <!-- text field 02 -->
+                    <div>
+                        <p class=" font-['Open_Sans'] text-[15px] text-[#777171] ml-[15px] font-bold mb-[5px]">
+                            Password
+                        </p>
+                        <input type="password" placeholder="Enter Your Password" class="w-full mx-w-[447px] h-[60px] bg-[#ffffff] border-[#EFEFEF] border-[1px] outline-[#EFEFEF] rounded-[7px] pl-[15px] cursor-pointer" >
+                    </div>
+                </div>
+                <button class="w-full mx-w-[447px]  h-[60px] bg-[#0060FF] rounded-[30px] text-[25px]">
+                    <p class="text-[#ffffff] uppercase font-['Open_Sans'] font-semibold">
+                        Sign In
+                    </p>
+                </button>
+            </div>
+        </div>
+
+        <!-- right section -->
+        <div class="hidden lg:block lg:bg-hero-image lg:bg-no-repeat lg:bg-cover lg:bg-center w-full">
+        </div>
+    </div>
+</body>
+</html>
